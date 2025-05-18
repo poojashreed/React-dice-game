@@ -5,7 +5,7 @@
     min-height: 100vh;   /* full viewport height */
     justify-content: center; /* center vertically */
     align-items: center;     /* center horizontally */
-}
+}   
 
 /* Shows each dice in one row */
 .RollDice-container {
