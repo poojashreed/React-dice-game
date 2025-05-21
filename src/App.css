@@ -1,5 +1,10 @@
 #root {
   max-width: 1280px;
+  height: 100vh;               /* Full screen height */
+  display: flex;               /* Flexbox layout */
+  flex-direction: column;      /* Stack children vertically */
+  justify-content: center;     /* Center vertically */
+  align-items: center;         /* Center horizontally */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;

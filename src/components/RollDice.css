@@ -1,11 +1,16 @@
 /* RollDice.css File */
 .RollDice {
-    display: flex;
-    flex-flow: column nowrap;
-    min-height: 100vh;   /* full viewport height */
-    justify-content: center; /* center vertically */
-    align-items: center;     /* center horizontally */
-}   
+  display: flex;
+  flex-direction: column;     /* stack children vertically */
+  justify-content: center;    /* vertical centering */
+  align-items: center;        /* horizontal centering */
+  height: 100vh;              /* full viewport height */
+  width: 100vw;               /* full viewport width */
+  margin: 0;                  /* no margin */
+  padding: 0;                 /* no padding */
+  box-sizing: border-box;     /* include padding/borders in size */
+}
+ 
 
 /* Shows each dice in one row */
 .RollDice-container {
@@ -38,6 +43,6 @@
 .RollDice-rolling {
     border: 0px;
     border-radius: 10px;
-    background-color: darkslateblue !important;
+    background-color: rgb(61, 139, 122) !important;
     opacity: 0.7
 }
